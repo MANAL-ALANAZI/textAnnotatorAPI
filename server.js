@@ -12,6 +12,7 @@ app.use("/api/product", productController);
 
 app.get("/api/res", function (request, response) {
     response.json(testList);
+    console.log("testing github");
 });
 
 app.post('/api/resources', function (req, res) {
